@@ -27,8 +27,27 @@ ul, li{
 .font-w-300{
     font-weight: 300;
 }
-
+/* spaccing */
+.padding-100{
+    padding: 0 100px;
+}
+.padding-30{
+    padding: 0 30px;
+}
+.margin-400{
+    margin: 400px 0;
+}
 /* header */
+
+/* body bg */
+body{
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
+    color: var(--black);
+}
+/* width */
+.width-30{
+    width: 30%;
+}
 header{
     background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
 }
@@ -38,8 +57,7 @@ header{
 .header-bg{
     background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
-    height: 174px;
-    padding:  0 62px;
+    padding:  60px 62px;
 }
 
 .header-maake-text{
@@ -81,7 +99,6 @@ nav li:hover a{
 }
 nav  p{
     font-size: 20px;
-    padding:0 50px;
     line-height: 30px;
     color:var(--black)
     
@@ -96,3 +113,32 @@ nav  p{
 .menu span{
     font-size: 25px;
 }
+
+.section{
+    padding: 0 0 700px 0;
+}
+.content-text{
+    width: 70%;
+    
+}
+.content-text h1{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.content-text .para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.img{
+    width: 13%;
+}
+
