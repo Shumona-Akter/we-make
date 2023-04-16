@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --black:#000;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, li{
+    list-style: none;
+}
+
+/* ffont family */
+.mono{
+    font-family: 'Roboto Mono', monospace;
+}
+.popins{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* font  weight */
+.font-w-300{
+    font-weight: 300;
+}
+
+/* header */
+header{
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
+}
+.header-banner-bg{
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
+}
+.header-bg{
+    background: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(50px);
+    height: 174px;
+    padding:  0 62px;
+}
+
+.header-maake-text{
+    font-size: 36px;
+}
+.header-brand{
+    font-weight: 300;
+    font-size: 80px;
+}
+.header-img{
+    padding: 152px 0 0 0;
+    
+}
+.header-img h1{
+
+}
+/* nav */
+
+/* .menu{
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(50px);
+} */
+nav li{
+    padding:0 50px;
+}
+ul{
+    padding: 0;
+}
+nav li a{
+    font-size: 20px;
+    line-height: 30px;
+    color:var(--black)
+}
+nav li:hover a{
+    color: var(--black);
+}
+nav  p{
+    font-size: 20px;
+    padding:0 50px;
+    line-height: 30px;
+    color:var(--black)
+    
+}
+ .brand-heading{
+        font-size: 50px;
+        margin:60px 0 90px;
+}
+.menu-show{
+    width: 50px;
+}
+.menu span{
+    font-size: 25px;
+}

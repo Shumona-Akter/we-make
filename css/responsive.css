@@ -1,0 +1,110 @@
+@media (min-width: 1200px) and (max-width: 1399px) {} 
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-bg{
+        width: 100px;
+        background: rgba(217, 217, 217, 0.3);
+        backdrop-filter: blur(12.5px);
+        height: 880px;
+        padding:  0 20px;
+    }
+    .header-maake-text{
+        transform: rotate(90deg);
+    }
+    .header-brand{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .header-img{
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+} 
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-bg{
+        width: 100px;
+        background: rgba(217, 217, 217, 0.3);
+        backdrop-filter: blur(12.5px);
+        padding:  0 20px;
+    }
+    .header-maake-text{
+        transform: rotate(90deg);
+    }
+    .header-brand{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .header-img{
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+} 
+
+
+@media (max-width: 575.98px){
+    .header-bg{
+        width: 100px;
+        background: rgba(217, 217, 217, 0.3);
+        backdrop-filter: blur(12.5px);
+        padding:  0 20px;
+        height: 100vh;
+    }
+    .header-maake-text{
+        transform: rotate(90deg);
+    }
+    .header-brand{
+        margin-top: 30px;
+        font-size: 45px;
+    }
+    .header-brand p{
+        padding: 0;
+        margin: 0;
+
+    }
+    .header-img{
+        padding: 0;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        /* background: rgba(217, 217, 217, 0.3); 
+        backdrop-filter: blur(50px); */
+    }
+    /* #menu-main{
+        background: rgba(217, 217, 217, 0.3);
+        backdrop-filter: blur(50px);
+    } */
+    .brand-heading{
+        font-size: 30px;
+        margin: 0;
+        padding: 20px 0;
+        
+    }
+    nav li{
+        padding:10px 0px;
+    }
+    nav  p{
+        padding:0 ;
+        
+    }
+   
+    
+}
