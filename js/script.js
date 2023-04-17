@@ -5,28 +5,28 @@ const login = document.getElementById('login')
 const resMenu = document.querySelector(".menu")
 console.log(resMenu)
 
-const bgMenu = document.getElementById('bg-menu')
-document.getElementById('menu-show').addEventListener("click",()=>{
-    const menu = document.getElementById("menu-main")
-    show.classList.add("d-none")
-    xMark.classList.remove("d-none")
-    menu.style.left ="50%"
-    menu.style.transform = ' translateX(-50%)';
-    // menu.style.background = "rgba(217, 217, 217, 0.3)"
-    // menu.style.backdropFilter = "blur(50px)"
-    // menu.classList.remove("d-none")
-})
+// const bgMenu = document.getElementById('bg-menu')
+// document.getElementById('menu-show').addEventListener("click",()=>{
+//     const menu = document.getElementById("menu-main")
+//     show.classList.add("d-none")
+//     xMark.classList.remove("d-none")
+//     menu.style.left ="50%"
+//     menu.style.transform = ' translateX(-50%)';
+//     // menu.style.background = "rgba(217, 217, 217, 0.3)"
+//     // menu.style.backdropFilter = "blur(50px)"
+//     // menu.classList.remove("d-none")
+// })
 
-document.getElementById('x-mark').addEventListener("click",()=>{
-    const menu = document.getElementById("menu-main")
-    bgMenu.style.backdropFilter = "blur(50px)"
-    show.classList.remove("d-none")
-    xMark.classList.add("d-none")
-    menu.style.left = "-800px";
-    // menu.style.background = "rgba(217, 217, 217, 0.3)"
-    // menu.style.backdropFilter = "blur(50px)"
-    // menu.classList.add("d-none")
-})
+// document.getElementById('x-mark').addEventListener("click",()=>{
+//     const menu = document.getElementById("menu-main")
+//     bgMenu.style.backdropFilter = "blur(50px)"
+//     show.classList.remove("d-none")
+//     xMark.classList.add("d-none")
+//     menu.style.left = "-800px";
+//     // menu.style.background = "rgba(217, 217, 217, 0.3)"
+//     // menu.style.backdropFilter = "blur(50px)"
+//     // menu.classList.add("d-none")
+// })
 
 // login
 document.getElementById("btn-x").addEventListener("click",()=>{
@@ -44,13 +44,13 @@ const menu = document.getElementById("bg-menu")
 const loginPopMb = () =>{
     mbLogin.style.top = "0";
     menu.style.width ="100%"
-    menu.classList.add("d-none");
+    // menu.classList.add("d-none");
 }
 
 
 document.getElementById("mb-xm-mark").addEventListener("click",()=>{
     mbLogin.style.top = "-400px"
-    menu.classList.remove("d-none")
+    // menu.classList.remove("d-none")
     
 })
 

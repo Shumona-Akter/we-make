@@ -80,16 +80,16 @@ body{
     color: #fff;
     margin: 20px 0;
 }
-header{
+/* header{
     background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
-}
-.header-banner-bg{
+} */
+/* .header-banner-bg{
     background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
-}
+} */
 .header-bg{
     background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
-    padding:  60px 62px;
+   height: 174px;
 }
 
 .header-maake-text{
@@ -97,7 +97,11 @@ header{
 }
 .header-brand{
     font-weight: 300;
-    font-size: 80px;
+    font-size: 84px;
+}
+.header-brand a{
+    color: #000;
+    margin: 0 18px ;
 }
 .header-img{
     padding: 152px 0 0 0;
@@ -107,8 +111,13 @@ header{
 
 }
 /* nav */
-
-/* .menu{
+nav{
+    background: rgba(217, 217, 217, 0.01);
+    backdrop-filter: blur(50px);
+    height: 90px;
+}
+/* .
+{
     top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
