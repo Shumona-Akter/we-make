@@ -58,12 +58,16 @@
                 <img src="./images/mb-header.png" alt="header" class="img-fluid d-lg-none">
             </div>    
         </div>    
-        <div id="bg-menu" class="container  menu ">
-            <div class="d-lg-none">
+        <div class="d-lg-none menu-bar">
+            <div class="text-end"><span id="menu-show" class=""> <i class="fa-solid fa-bars"></i></span></div>
+             <div  class="text-end"><span id="x-mark" class="d-none"><i class="fa-solid fa-xmark"></i></span></div>
+         </div>
+        <div id="bg-menu" class="container-lg  menu ">
+            <!-- <div class="d-lg-none">
                <div class="text-end"><span id="menu-show" class=""> <i class="fa-solid fa-bars"></i></span></div>
                 <div  class="text-end"><span id="x-mark" class="d-none"><i class="fa-solid fa-xmark"></i></span></div>
-            </div>
-            <div id="menu-main" class="d-none d-lg-block">
+            </div> -->
+            <div id="menu-main" class=" d-lg-block">
                 <h1 class="mono text-black font-w-300 brand-heading " >wemake.Brands matter.</h1>
                 <nav class=" Poppins padding-30">
                 <div class="d-flex flex-column flex-lg-row justify-content-between">
@@ -154,10 +158,11 @@
         <span ><i id="btn-x"  class="fa-solid fa-x"></i></span>
         <h1>Register your interest</h1>
         <p class="pb-5 mb-5 ">Join the community and be the first to get updates on launch dates, beta testing and even request features.</p>
-        <form>
-            <input type="email" placeholder="Enter your email" name="email">
+        <form id="lg-form">
+            <input type="email" placeholder="Enter your email" name="email" >
             <button class="submit-btn ">Submit</button>
         </form>
+        <h1 id="result"></h1>
     </div>
 
     <!-- script -->
