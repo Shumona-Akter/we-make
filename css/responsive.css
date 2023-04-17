@@ -96,6 +96,20 @@
     .header-brand a {
       font-size: 70px;
     }
+    /* contact */
+    .contact-section{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .contact-section input, textarea{
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .contact-section input::placeholder, textarea::placeholder{
+        font-size: 25px;
+    }
     
 }
 
@@ -217,7 +231,27 @@
         display: flex;
         justify-content: center;
     }
-    
+    .contact-section{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .contact-section input, textarea{
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .contact-section input::placeholder, textarea::placeholder{
+        font-size: 20px;
+    }
+    .login-form{
+        width: 600px;
+        height: 400px;
+        padding: 27px 20px ;
+    }
+    .login-form p {
+        padding-right: 0;
+    }
 } 
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -341,7 +375,29 @@
         display: flex;
         justify-content: center;
     }
-    
+    /* contact */
+    .contact-section{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .contact-section input, textarea{
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .contact-section input::placeholder, textarea::placeholder{
+        font-size: 20px;
+    }
+    .login-form{
+        width: 500px;
+        height: 400px;
+        padding: 27px 20px ;
+    }
+    .login-form p {
+        padding-right: 0;
+    }
+
 } 
 
 
@@ -469,5 +525,30 @@
         display: flex;
         justify-content: center;
     }
+
+    /* contact */
+    .contact-section{
+        width: 280px;
+        margin: 0 auto;
+    }
+    .contact-section input, textarea{
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .contact-section input::placeholder, textarea::placeholder{
+        font-size: 20px;
+    }
+
+    .login-form{
+        width: 300px;
+        height: 400px;
+        padding: 27px 20px ;
+    }
+    .login-form p {
+        padding-right: 0;
+    }
+
     
 }
