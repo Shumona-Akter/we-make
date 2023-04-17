@@ -36,3 +36,19 @@ document.getElementById("btn-x").addEventListener("click",()=>{
 const loginPop = () =>{
     login.classList.remove("d-none")
 }
+
+// mb login
+const mbLogin = document.getElementById('mb-login')
+console.log(mbLogin)
+const menu = document.getElementById("bg-menu")
+const loginPopMb = () =>{
+    mbLogin.style.top = "0"
+    menu.classList.add("d-none")
+}
+
+
+document.getElementById("mb-xm-mark").addEventListener("click",()=>{
+    mbLogin.style.top = "-400px"
+    menu.classList.remove("d-none")
+    
+})

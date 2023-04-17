@@ -23,6 +23,22 @@
     <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
+    <!-- mb login form -->
+    <div id="mb-login" class="lg-d-none" >
+        <span id="mb-xm-mark"><i class="fa-solid fa-xmark text-white"></i></span>
+        <div>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+            <a href="#">Privacy</a>
+            <h1>Register your interest</h1>
+        </div>
+        <form >
+            <form>
+                <input type="email" placeholder="Enter your email" name="email">
+                <button class="submit-btn ">Submit</button>
+            </form>
+        </form>
+    </div>
     <header class="header-banner-bg" >
         <div class="d-flex flex-lg-column">
             <div class="header-bg d-lg-flex alin align-items-center ">
@@ -52,7 +68,8 @@
                 <nav class=" Poppins padding-30">
                 <div class="d-flex flex-column flex-lg-row justify-content-between">
                 <ul class="d-flex flex-column flex-lg-row ">
-                    <li><a onclick="loginPop()">Register your interest</a></li>
+                    <li><a onclick="loginPop()" class="d-none d-lg-block">Register your interest</a></li>
+                    <li><a class="d-lg-none" onclick="loginPopMb()">Register your interest</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Analogue</a></li>
                     <li><a href="">Privacy</a></li>
@@ -67,7 +84,7 @@
     <!-- main -->
     <main class="container ">
         <div class="margin-400">
-            <div class="d-flex flex-column-reverse flex-lg-row justify-content-between section">
+            <div class="d-flex flex-column-reverse flex-md-row justify-content-between section">
                 <div class="content-text ">
                     <h1>bold</h1>
                     <p class="para">weMake.brands brings a little intuition back to creative table.  Combined with insight we can create bold, memorable  experiences.
@@ -78,7 +95,7 @@
                     <img src="./images/bold.png" alt="bold" class="img-fluid">
                 </div>
             </div>
-            <div class="d-flex flex-column-reverse flex-lg-row  justify-content-between section">
+            <div class="d-flex flex-column-reverse flex-md-row  justify-content-between section">
                 <div class="content-text">
                     <h1>Relevant</h1>
                     <p class="para">With an understanding of what resonates, wemake.Brands can elevate your design to make your brand(ing) stronger than ever.</p>
@@ -88,7 +105,7 @@
                     <img src="./images/revent.png" alt="bold" class="img-fluid">
                 </div>
             </div>
-            <div class="d-flex flex-column-reverse flex-lg-row  justify-content-between section">
+            <div class="d-flex flex-column-reverse flex-md-row  justify-content-between section">
                 <div class="content-text">
                     <h1>Authentic</h1>
                     <p class="para">weMake.brands creates and maintains your brand's visual integrity. Creating its structure and its authenticity across all channels.</p>
@@ -98,7 +115,7 @@
                     <img src="./images/A - braille.png" alt="bold" class="img-fluid">
                 </div>
             </div>
-            <div class="d-flex flex-column-reverse flex-lg-row  justify-content-between section">
+            <div class="d-flex flex-column-reverse flex-md-row  justify-content-between section">
                 <div class="content-text">
                     <h1>Narrative</h1>
                     <p class="para">We’ll look at your brand in a different light from a fresh perspective to tell the  next chapter in your brands story.</p>
@@ -108,7 +125,7 @@
                     <img src="./images/N - braille.png" alt="bold" class="img-fluid">
                 </div>
             </div>
-            <div class="d-flex flex-column-reverse flex-lg-row  justify-content-between section">
+            <div class="d-flex flex-column-reverse flex-md-row  justify-content-between section">
                 <div class="content-text">
                     <h1>Design</h1>
                     <p class="para">At weMake.brands we’ll ideate, innovate and care for your brand to ensure our designs are cohesive with your brand vision.</p>
@@ -118,7 +135,7 @@
                     <img src="./images/D - braille (1).png" alt="bold" class="img-fluid">
                 </div>
             </div>
-            <div class="d-flex flex-column-reverse flex-lg-row  justify-content-between ">
+            <div class="d-flex flex-column-reverse flex-md-row  justify-content-between ">
                 <div class="content-text">
                     <h1>SIMPLE</h1>
                     <p class="para">“Clarity is kindness”. In communication, in concept and in design. And, to achieve clarity it's usually best to keep things simple.</p>
