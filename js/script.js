@@ -50,7 +50,7 @@ const loginPopMb = () =>{
 
 document.getElementById("mb-xm-mark").addEventListener("click",()=>{
     mbLogin.style.top = "-400px"
-    // menu.classList.remove("d-none")
+    // menu.classList.remove("d-none")  
     
 })
 

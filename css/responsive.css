@@ -198,6 +198,26 @@
         font-size: 70px;
         margin:  0 0 0 10px;
     }
+    /* about */
+    .main-text{
+        width: 700px;
+        padding:0 0 30px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .about-para{
+    font-size: 19px;
+    line-height: 32px;
+    
+    }
+    
+    .about-image{
+        margin:150px 0 50px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
 } 
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -210,6 +230,8 @@
     }
     .header-maake-text{
         transform: rotate(90deg);
+        padding: 0;
+        margin: 0;
     }
     .header-brand{
         margin-top: 30px;
@@ -300,6 +322,26 @@
         font-size: 70px;
         margin:  0 0 0 10px;
     }
+    /* about */
+    .main-text{
+        width: 500px;
+        padding:0 0 30px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .about-para{
+    font-size: 19px;
+    line-height: 32px;
+    
+    }
+    
+    .about-image{
+        margin:150px 0 50px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
 } 
 
 
@@ -406,6 +448,26 @@
     .header-brand a {
         font-size: 70px;
         margin:  0 0 0 10px;
+    }
+
+    /* about html */
+    .main-text{
+        width: 300px;
+        padding:0 0 30px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .about-para{
+    font-size: 19px;
+    line-height: 32px;
+    
+    }
+    
+    .about-image{
+        margin:150px 0 50px 0;
+        display: flex;
+        justify-content: center;
     }
     
 }

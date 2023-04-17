@@ -11,7 +11,7 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-ul, li{
+nav  li{
     list-style: none;
 }
 
@@ -105,7 +105,7 @@ body{
     margin: 0 18px ;
 }
 .header-img{
-    padding: 152px 0 0 0;
+    /* padding: 152px 0 0 0; */
     
 }
 .header-img h1{
@@ -272,10 +272,54 @@ form{
     font-size: 30px;
     z-index: 9;
 }
-#menu-main{
-    position: relative;
-   left: 50%;
-   transform: translateX(-50%);
 
 
+
+
+/* about html */
+.about-header-img{
+    margin: 100px 0;
+}
+.main-text{
+    padding:220px 150px;
+}
+.title{
+    margin-bottom: 40px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.about-para{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 60px;
+color: #000000;
+
+}
+.we-make{
+position: absolute;
+width: 109px;
+left: 0;
+top: 55px;
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 30px;
+color: #000000;
+transform: rotate(90deg)
+}
+.about-image{
+    margin: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+.privecy{
+    margin: 160px 0;
 }
