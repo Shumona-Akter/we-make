@@ -2,6 +2,8 @@ const xMark = document.getElementById("x-mark")
 //     menu.classList.toggle("d-none")
 const show = document.getElementById('menu-show')
 console.log(show)
+const login = document.getElementById('login')
+console.log(login)
 
 const bgMenu = document.getElementById('bg-menu')
 console.log(bgMenu)
@@ -25,3 +27,12 @@ document.getElementById('x-mark').addEventListener("click",()=>{
     xMark.classList.add("d-none")
     menu.classList.add("d-none")
 })
+
+// login
+document.getElementById("btn-x").addEventListener("click",()=>{
+    login.classList.add("d-none")
+})
+
+const loginPop = () =>{
+    login.classList.remove("d-none")
+}

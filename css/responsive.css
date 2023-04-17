@@ -234,6 +234,28 @@
         
     }
     /* mmain */
+
+    .content-text h1 {
+        font-size: 36px;
+    }
+    .content-text .para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .margin-400 {
+        margin: 150px 0 125px 100px;
+    }
+    .section {
+        padding: 0 0 125px 0;
+    }
+    .content-text{
+        width: 100%;
+        
+    }
+    .img{
+        width: 70px;
+        margin-bottom: 40px;
+    }
     
     
 }
