@@ -90,6 +90,7 @@ body{
     background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
    height: 174px;
+   padding: 0 62px;
 }
 
 .header-maake-text{
@@ -124,9 +125,9 @@ nav{
     background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
 } */
-nav li{
+/* nav li{
     padding:0 50px;
-}
+} */
 ul{
     padding: 0;
     cursor: pointer;
@@ -134,13 +135,16 @@ ul{
 nav li a{
     font-size: 20px;
     line-height: 30px;
+    padding: 40px;
     color:var(--black)
+    
 }
 nav li:hover a{
     color: var(--black);
 }
 nav  p{
     font-size: 20px;
+    padding: 40px 0;
     line-height: 30px;
     color:var(--black)
     

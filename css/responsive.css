@@ -20,8 +20,9 @@
     .header-brand a {
         font-size: 84px;
     }
-    nav li {
-        padding: 0 30px;
+
+    nav li a{
+        padding:40px 30px;
     }
     /* section */
     .margin-400{
@@ -66,8 +67,9 @@
         font-size: 50px;
         margin: 30px 30px 50px;
     }
-    nav li {
-        padding: 0 30px;
+    
+    nav li a{
+        padding:40px 20px;
     }
     /* section */
     .margin-400{
