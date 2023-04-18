@@ -1,0 +1,160 @@
+@media (max-width: 575.98px){
+    .header-bg{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        width: 100px;
+        background: rgba(217, 217, 217, 0.3);
+        backdrop-filter: blur(12.5px);
+        padding:  0 20px;
+        height:944px;
+    }
+    .header-maake-text{
+        font-size: 30px;
+        margin-top: 30px;
+        line-height: 30px;
+        transform: rotate(90deg);
+    }
+    .header-brand{
+        margin-top: 30px;
+        font-size: 45px;
+    }
+    .header-brand p{
+        padding: 0;
+        margin: 0;
+
+    }
+    .header-img{
+        margin: 100px 0 0 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center ;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        /* background: rgba(217, 217, 217, 0.3); 
+        backdrop-filter: blur(50px); */
+    }
+    #menu-main{
+        width: 100%;
+        padding: 20px;
+        background: rgba(217, 217, 217); 
+        backdrop-filter: blur(50px);
+        position: absolute;
+        top: 0;
+        left: -800px;
+        transition: all linear 0.4s;
+
+
+    }
+
+    .add-clss{
+        left: 50%;
+        transform: tr;
+
+
+    }
+    .brand-heading{
+        font-size: 30px;
+        margin: 0;
+        padding: 20px 0;
+        
+    }
+    nav li{
+        padding:10px 0px;
+    }
+    nav  p{
+        padding:0 ;
+        
+    }
+    /* mmain */
+
+    .content-text h1 {
+        font-size: 36px;
+    }
+    .content-text .para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .content-text a {
+        font-size: 18px;
+    }
+    .margin-400 {
+        margin: 150px 0 125px 100px;
+    }
+    
+    .content-text{
+        width: 100%;
+        
+    }
+    .img{
+        width: 70px;
+        margin-bottom: 40px;
+    }
+    .padding-30{
+        padding: 0;
+    }
+
+    /* revice */
+    /* headere */
+    /* cng */
+    .header-brand a {
+        font-size: 50px;
+        margin:  0;
+    }
+
+    /* about html */
+    .main-text{
+        width: 300px;
+        padding:0 0 30px;
+    }
+    .title{
+        font-size: 36px;
+    }
+    .about-para{
+    font-size: 19px;
+    line-height: 32px;
+    
+    }
+    
+    .about-image{
+        margin:150px 0 50px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* contact */
+    .contact-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-section input, textarea{
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .contact-section input::placeholder, textarea::placeholder{
+        font-size: 20px;
+    }
+
+    .login-form{
+        width: 300px;
+        height: 400px;
+        padding: 27px 20px ;
+    }
+    .login-form p {
+        padding-right: 0;
+    }
+    /* section */
+    .section-brand{
+        width: 70%;
+        margin-left: auto;
+    }
+    
+}
