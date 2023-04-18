@@ -44,6 +44,17 @@ body{
     background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
     color: var(--black);
 }
+
+/* 1e1e bg */
+
+.e1e1{
+    background:  #1E1E1E;;
+}
+
+.index-form-bg{
+    background: rgba(55, 55, 55, 0.4);
+    backdrop-filter: blur(50px);
+}
 /* width */
 .width-30{
     width: 30%;
@@ -211,8 +222,7 @@ nav  p{
     transform: translate(-50%, -50%);
     width: 700px;
     height: 450px;
-    background: rgba(55, 55, 55, 0.4);
-    backdrop-filter: blur(50px);
+    
 }
 .login-form span{
     display: flex;

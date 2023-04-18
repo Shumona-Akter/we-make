@@ -73,7 +73,8 @@ lgForm.addEventListener('submit', (event) => {
   if (validateEmail(email)) {
     result.innerHTML = ' ';
   } else {
-    result.innerHTML = 'Invalid email';
+     result.innerHTML = 'Invalid email';
+    
   }
 });
 
