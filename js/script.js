@@ -41,13 +41,22 @@ const loginPop = () =>{
 const mbLogin = document.getElementById('mb-login')
 
 const menu = document.getElementById("bg-menu")
-const loginPopMb = () =>{
-    mbLogin.style.top = "0";
-    menu.style.width ="100%"
-    // menu.classList.add("d-none");
-}
+// const loginPopMb = () =>{
+//     mbLogin.style.top = "0";
+//     menu.style.width ="100%";
+//     // menu.classList.add("d-none");
+// }
+// const loginPopMb = () =>{
+//     mbLogin.style.top = "0";
+//     menu.style.width ="100%";
+//     // menu.classList.add("d-none");
+// }
 
-
+const cls = document.querySelector(".mb-log")
+// document.getElementById("menu-show").addEventListener("click",()=>{
+//     const mbLog = document.getElementById("mb-login")
+//     mbLog.classList.toggle("mb-log")
+// })
 document.getElementById("mb-xm-mark").addEventListener("click",()=>{
     mbLogin.style.top = "-400px"
     // menu.classList.remove("d-none")  
@@ -72,3 +81,13 @@ function validateEmail(email) {
   const re = /\S+@\S+\.\S+/;
   return re.test(email);
 }
+
+
+// mb
+
+const menuBtn = document.querySelector('.sprig');
+const mobileMenu = document.querySelector('.mobile-nav');
+menuBtn.addEventListener('click', function(){
+  menuBtn.classList.toggle('is-active');
+  mbLogin.classList.toggle('mb-log');
+});

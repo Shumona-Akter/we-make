@@ -58,6 +58,12 @@ body{
     z-index: 99;
     transition: all linear  0.4s;
 }
+#mb-login.mb-log{
+    width: 100%;
+    top: 0;
+}
+
+
 #mb-login span{
     display: flex;
     justify-content: end;
@@ -364,3 +370,47 @@ transform: rotate(90deg)
 a:hover{
     color: #000;
 }
+/* .bar */
+
+.btn-flex{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+}
+.sprig{
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.sprig .bar, .sprig::after, .sprig::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    /* background: #6E837E; */
+    background: #000000;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.sprig.is-active::before{
+    transform: rotate(-45deg) translate(-8px, 6px);
+    background: #ffffff;
+}
+.sprig.is-active::after{
+    transform: rotate(45deg) translate(-9px, -8px);
+    background: #ffffff;
+}
+
+.sprig.is-active .bar{
+    opacity: 0;
+}
+
