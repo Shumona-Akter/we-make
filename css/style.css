@@ -108,7 +108,7 @@ body{
 }
 .header-brand a{
     color: #000;
-    margin: 0 18px ;
+    margin: 0 21px ;
 }
 .header-img{
     /* padding: 152px 0 0 0; */
@@ -412,5 +412,11 @@ a:hover{
 
 .sprig.is-active .bar{
     opacity: 0;
+}
+
+/* cursor pointer */
+
+.cursor-pointer{
+    cursor: pointer;
 }
 
