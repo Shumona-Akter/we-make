@@ -57,11 +57,11 @@ const cls = document.querySelector(".mb-log")
 //     const mbLog = document.getElementById("mb-login")
 //     mbLog.classList.toggle("mb-log")
 // })
-document.getElementById("mb-xm-mark").addEventListener("click",()=>{
-    mbLogin.style.top = "-400px"
-    // menu.classList.remove("d-none")  
+// document.getElementById("mb-xm-mark").addEventListener("click",()=>{
+//     mbLogin.style.top = "-400px"
+//     // menu.classList.remove("d-none")  
     
-})
+// })
 
 
 const lgForm = document.getElementById('lg-form');
