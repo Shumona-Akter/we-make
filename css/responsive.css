@@ -33,6 +33,9 @@
         font-size: 25px;
         line-height: 40px;
     }
+    .contact-section{
+        width: 100%;
+    }
    
     
 } 
@@ -84,7 +87,7 @@
 
     /* contact */
     .contact-section{
-        width: 800px;
+        width: 100%;
         margin: 0 auto;
     }
     
@@ -536,6 +539,9 @@
     }
     .contact-section input::placeholder, textarea::placeholder{
         font-size: 14px;
+    }
+    .contact-section  textarea{
+        height: 120px;
     }
     .login-form{
         width: 300px;

@@ -142,8 +142,8 @@ nav{
     backdrop-filter: blur(50px);
     position: fixed;
     bottom: 0;
-    height: 90px;
-    line-height: 90px;
+    height: 70px;
+    line-height: 70px;
 }
 /* .
 {
@@ -171,7 +171,7 @@ nav li:hover a{
 }
 nav  p{
     font-size: 20px;
-    line-height: 90px;
+    line-height: 70px;
     color:var(--black)
     
 }
@@ -351,7 +351,7 @@ color: #000000;
 }
 /* contact */
 .contact-section{
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -453,7 +453,7 @@ a:hover{
 
 /* contact form */
 .contact-section {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 .title {
@@ -482,7 +482,7 @@ a:hover{
 .contact-section  textarea{
     width: 100%;
     outline: none;
-    height: 125px;
+    height: 155px;
     resize: none;
 }
 
