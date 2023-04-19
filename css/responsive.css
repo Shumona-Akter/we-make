@@ -96,6 +96,8 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+
     .header-bg{
         width: 100px;
         background: rgba(217, 217, 217, 0.3);
@@ -247,6 +249,9 @@
         display: flex;
         align-items: center;
     }
+    .mt-20{
+        margin-top: 18px;
+    }
 } 
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -391,11 +396,16 @@
     .ml-100{
         margin-left: 100px;
     }
-    
+    .mt-20{
+        margin-top: 18px;
+    }
 } 
 
 
 @media (max-width: 575.98px){
+    .mt-20{
+        margin-top: 18px;
+    }
     .header-bg{
         width: 100px;
         background: rgba(217, 217, 217, 0.3);

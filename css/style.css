@@ -107,15 +107,12 @@ body{
     top: 0;
     background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
-    height: 90px;
+    height: 100px;
     padding: 0 62px;
     z-index: 1;
 }
 
-.header-maake-text{
-    font-size: 36px;
-    color: #000;
-}
+
 .header-brand{
     font-weight: 300;
     font-size: 60px;
@@ -123,11 +120,12 @@ body{
 .header-brand a{
     color: #000;
     margin: 0 21px ;
-    font-size: 50px;
+    font-size: 53px;
 }
 .header-maake-text {
+    color: #000;
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 
