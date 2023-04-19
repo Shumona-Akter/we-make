@@ -305,7 +305,7 @@ form{
     margin: 100px 0;
 }
 .main-text{
-    padding:170px 150px;
+    padding:0 150px 0 200px;
 }
 .title{
     margin-bottom: 40px;
@@ -483,6 +483,7 @@ a:hover{
     width: 100%;
     outline: none;
     height: 125px;
+    resize: none;
 }
 
 .header-brand {
