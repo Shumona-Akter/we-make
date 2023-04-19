@@ -89,7 +89,7 @@ body{
     font-size: 16px;
     line-height: 30px;
     color: #fff;
-    padding: 10px 30px 10px 0 ;
+    padding: 10px 60px;
 }
 #mb-login h1{
     font-family: 'Poppins';
@@ -118,44 +118,29 @@ body{
 }
 .header-brand{
     font-weight: 300;
+    font-size: 60px;
 }
 .header-brand a{
     color: #000;
     margin: 0 21px ;
-    font-size: 30px;
+    font-size: 50px;
 }
 .header-maake-text {
     font-size: 30px;
     line-height: 30px;
 }
-.header-img{
-    width: 1000px;
-    
-}
-.header-img h1{
 
-}
+
 /* nav */
 nav{
     width: 100%;
-    background: rgba(217, 217, 217, 0.01);
+    background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
     position: fixed;
     bottom: 0;
     height: 70px;
     line-height: 70px;
 }
-/* .
-{
-    top: 200px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(217, 217, 217, 0.3);
-    backdrop-filter: blur(50px);
-} */
-/* nav li{
-    padding:0 50px;
-} */
 ul{
     padding: 0;
     cursor: pointer;
@@ -169,12 +154,7 @@ nav li a{
 nav li:hover a{
     color: var(--black);
 }
-nav  p{
-    font-size: 20px;
-    line-height: 70px;
-    color:var(--black)
-    
-}
+
  .brand-heading{
         font-size: 50px;
         margin: 40px 0;
@@ -296,10 +276,6 @@ form{
     font-size: 30px;
     z-index: 9;
 }
-
-
-
-
 /* about html */
 .about-header-img{
     margin: 100px 0;
@@ -350,13 +326,6 @@ color: #000000;
     margin: 160px 0;
 }
 /* contact */
-.contact-section{
-    width: 100%;
-    margin: 0 auto;
-}
-
-
-
 .main-contact-btn{
     font-family: 'Poppins';
     font-style: normal;
@@ -390,7 +359,6 @@ a:hover{
     border: none;
     outline: none;
     background: none;
-    /* backdrop-filter: blur(50px); */
 }
 
 .sprig .bar, .sprig::after, .sprig::before{
@@ -423,12 +391,6 @@ a:hover{
     cursor: pointer;
 }
 
-
-
-/* revision */
-.make-index{
-}
-
 /* brand section cng */
 .section-title{
     height: 100vh;
@@ -438,6 +400,7 @@ a:hover{
 
 .header-img{
     height: 100vh;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,21 +449,9 @@ a:hover{
     resize: none;
 }
 
-.header-brand {
-    font-weight: 300;
-    font-size: 60px;
-}
-.header-img{
-    width: 800px;
-}
 .brand-heading {
     font-size: 50px;
-    /* margin: 30px 30px 50px; */
 }
-.header-brand a {
-    font-size: 50px;
-}
-
 .mt-8{
     margin-top: 0.8rem;
 }
