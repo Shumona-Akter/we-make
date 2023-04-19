@@ -66,6 +66,7 @@ body{
     top: -400px;
     padding: 30px 20px;
     background: #000000;
+    backdrop-filter: blur(25px);
     z-index: 99;
     transition: all linear  0.4s;
 }
@@ -84,10 +85,10 @@ body{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
     color: #fff;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 #mb-login h1{
     font-family: 'Poppins';
@@ -105,7 +106,7 @@ body{
     top: 0;
     background: rgba(217, 217, 217, 0.3);
     backdrop-filter: blur(50px);
-    height: 130px;
+    height: 90px;
     padding: 0 62px;
     z-index: 1;
 }
@@ -116,11 +117,15 @@ body{
 }
 .header-brand{
     font-weight: 300;
-    font-size: 84px;
 }
 .header-brand a{
     color: #000;
     margin: 0 21px ;
+    font-size: 30px;
+}
+.header-maake-text {
+    font-size: 30px;
+    line-height: 30px;
 }
 .header-img{
     width: 1000px;
@@ -165,7 +170,6 @@ nav li:hover a{
 }
 nav  p{
     font-size: 20px;
-    padding:0 40px ;
     line-height: 90px;
     color:var(--black)
     
@@ -224,6 +228,7 @@ nav  p{
     transform: translate(-50%, -50%);
     width: 700px;
     height: 450px;
+    z-index: 9;
     
 }
 .login-form span{
@@ -232,7 +237,7 @@ nav  p{
 }
 .login-form span i{
     text-align: right;
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 35px;
     color: #FFFFFF;
 }
@@ -315,23 +320,25 @@ form{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 300;
-font-size: 30px;
-line-height: 60px;
+font-size: 25px;
+line-height: 50px;
 color: #000000;
 
 }
 .we-make{
-position: fixed;
-width: 109px;
-left: 0;
-top: 55px;
-font-family: 'Roboto Mono';
-font-style: normal;
-font-weight: 300;
-font-size: 36px;
-line-height: 30px;
-color: #000000;
-transform: rotate(90deg)
+    position: fixed;
+    width: 100px;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    backdrop-filter: blur(50px);
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
+    transform: rotate(90deg);
 }
 .about-image{
     margin: 200px 0;
@@ -346,28 +353,9 @@ transform: rotate(90deg)
     width: 900px;
     margin: 0 auto;
 }
-.contact-section input, textarea{
-    border: 1px solid black;
-    border-radius: 20px;
-    padding: 10px 20px;
-    background: #fff;
-    margin-bottom: 30px;
-    font-size: 36px;
-}
-.contact-section input::placeholder, textarea::placeholder{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    color: #000000;
-    line-height: 100%;
-}
 
-.contact-section  textarea{
-    width: 100%;
-    outline: none;
-    height: 225px;
-}
+
+
 .main-contact-btn{
     font-family: 'Poppins';
     font-style: normal;
@@ -395,31 +383,31 @@ a:hover{
     top: 20px;
     right: 20px;
     display: block;
-    width: 35px;
+    width: 20px;
     cursor: pointer;
     appearance: none;
-    background: none;
     border: none;
     outline: none;
+    background: rgba(55, 55, 55, 0.4);
+    backdrop-filter: blur(50px);
 }
 
 .sprig .bar, .sprig::after, .sprig::before{
     content: '';
     display: block;
     width: 100%;
-    height: 5px;
-    /* background: #6E837E; */
+    height: 2px;
     background: #000000;
     margin: 6px 0;
     transition: 0.4s;
 }
 
 .sprig.is-active::before{
-    transform: rotate(-45deg) translate(-8px, 6px);
+    transform: rotate(-45deg) translate(-7px, 5.5px);
     background: #ffffff;
 }
 .sprig.is-active::after{
-    transform: rotate(45deg) translate(-9px, -8px);
+    transform: rotate(45deg) translate(-5.3px, -5px);
     background: #ffffff;
 }
 
@@ -458,4 +446,58 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* contact form */
+.contact-section {
+    width: 800px;
+    margin: 0 auto;
+}
+.title {
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact-section input, textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.contact-section input::placeholder, textarea::placeholder {
+    color: #000;
+}
+
+.contact-section  textarea{
+    width: 100%;
+    outline: none;
+    height: 125px;
+}
+
+.header-brand {
+    font-weight: 300;
+    font-size: 60px;
+}
+.header-img{
+    width: 800px;
+}
+.brand-heading {
+    font-size: 50px;
+    /* margin: 30px 30px 50px; */
+}
+.header-brand a {
+    font-size: 50px;
+}
+
+.mt-8{
+    margin-top: 0.8rem;
 }

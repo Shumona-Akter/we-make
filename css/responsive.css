@@ -3,10 +3,6 @@
         font-weight: 300;
         font-size: 60px;
     }
-    
-    .header-maake-text {
-        font-size: 43px;
-    }
     .header-img{
         width: 800px;
     }
@@ -15,7 +11,7 @@
         /* margin: 30px 30px 50px; */
     }
     .header-brand a {
-        font-size: 84px;
+        font-size: 50px;
     }
 
     nav li a{
@@ -38,9 +34,7 @@
         line-height: 40px;
     }
    
-    .header-brand a {
-        font-size: 84px;
-    }
+    
 } 
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -86,23 +80,14 @@
     .img{
         width: 10%;
     }
-    .header-brand a {
-      font-size: 70px;
-    }
+    
+
     /* contact */
     .contact-section{
         width: 800px;
         margin: 0 auto;
     }
-    .contact-section input, textarea{
-        border-radius: 10px;
-        padding: 10px 10px;
-        margin-bottom: 15px;
-        font-size: 18px;
-    }
-    .contact-section input::placeholder, textarea::placeholder{
-        font-size: 18px;
-    }
+    
     /* about */
     .about-para{
         font-size: 25px;
@@ -112,29 +97,26 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header-bg{
-        width: 130px;
+        width: 100px;
         background: rgba(217, 217, 217, 0.3);
         backdrop-filter: blur(12.5px);
-        padding:  0 20px;
+        padding:  0 ;
         height: 100vh;
     }
     .header-maake-text{
         transform: rotate(90deg);
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
         font-size: 30px;
+        line-height: 14px;
     }
     .header-brand{
         margin-top: 30px;
         font-size: 45px;
     }
+   
     .header-brand a{
-        font-size: 70px;
-    }
-    .header-brand p{
-        padding: 0;
-        margin: 0;
-
+        font-size: 50px;
     }
     .header-img{
         padding: 0;
@@ -226,17 +208,20 @@
     }
     /* contact */
     .contact-section{
-        width: 500px;
+        width: 700px;
         margin: 0 auto;
     }
     .contact-section input, textarea{
         border-radius: 10px;
         padding: 5px 10px;
-        margin-bottom: 20px;
-        font-size: 20px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .contact-section textarea{
+       height: 180px;
     }
     .contact-section input::placeholder, textarea::placeholder{
-        font-size: 20px;
+        font-size: 16px;
     }
     .login-form{
         width: 500px;
@@ -267,30 +252,28 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header-bg{
-        width: 120px;
+        width: 100px;
         background: rgba(217, 217, 217, 0.3);
         backdrop-filter: blur(12.5px);
-        padding:  0 20px;
+        padding:  0 ;
         height: 100vh;
     }
     .header-maake-text{
         transform: rotate(90deg);
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
         font-size: 30px;
+        line-height: 14px;
     }
     .header-brand{
         margin-top: 30px;
         font-size: 45px;
     }
+   
     .header-brand a{
-        font-size: 60px;
+        font-size: 50px;
     }
-    .header-brand p{
-        padding: 0;
-        margin: 0;
-
-    }
+    
     .header-img{
         padding: 0;
         width: auto;
@@ -304,13 +287,8 @@
         top: 0;
         left: 50%;
         transform: translateX(-50%);
-        /* background: rgba(217, 217, 217, 0.3); 
-        backdrop-filter: blur(50px); */
     }
-    /* #menu-main{
-        background: rgba(217, 217, 217, 0.3);
-        backdrop-filter: blur(50px);
-    } */
+    
     .brand-heading{
         font-size: 30px;
         margin: 0;
@@ -365,10 +343,7 @@
         padding: 0;
     }
     /* revision */
-    .header-brand a {
-        font-size: 70px;
-        margin:  0 0 0 10px;
-    }
+    
     /* about */
     .main-text{
         width: 500px;
@@ -432,22 +407,24 @@
 
 @media (max-width: 575.98px){
     .header-bg{
-        width: 105px;
+        width: 100px;
         background: rgba(217, 217, 217, 0.3);
         backdrop-filter: blur(12.5px);
-        padding:  0 20px;
+        padding:  0 ;
         height: 100vh;
     }
     .header-maake-text{
         transform: rotate(90deg);
         padding: 0;
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
         font-size: 30px;
+        line-height: 14px;
     }
     .header-brand{
         margin-top: 30px;
         font-size: 45px;
     }
+   
     .header-brand a{
         font-size: 50px;
     }
@@ -530,6 +507,7 @@
     .main-text{
         width: 300px;
         padding:0 0 30px;
+        margin: 0 auto;
     }
     .title{
         font-size: 36px;
@@ -553,14 +531,14 @@
     .contact-section input, textarea{
         border-radius: 10px;
         padding: 5px 10px;
-        margin-bottom: 20px;
-        font-size: 20px;
+        margin-bottom: 10px;
+        font-size: 14px;
     }
     .contact-section input::placeholder, textarea::placeholder{
-        font-size: 20px;
+        font-size: 14px;
     }
     .login-form{
-        width: 500px;
+        width: 300px;
         height: 400px;
         padding: 27px 20px ;
     }
@@ -586,5 +564,6 @@
         align-items: center;
     }
     
+
 }
 
