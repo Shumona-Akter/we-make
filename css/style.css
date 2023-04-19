@@ -388,8 +388,8 @@ a:hover{
     appearance: none;
     border: none;
     outline: none;
-    background: rgba(55, 55, 55, 0.4);
-    backdrop-filter: blur(50px);
+    background: none;
+    /* backdrop-filter: blur(50px); */
 }
 
 .sprig .bar, .sprig::after, .sprig::before{
@@ -397,18 +397,19 @@ a:hover{
     display: block;
     width: 100%;
     height: 2px;
-    background: #000000;
+    background: rgba(55, 55, 55, 0.4);
+    backdrop-filter: blur(50px);
     margin: 6px 0;
     transition: 0.4s;
 }
 
 .sprig.is-active::before{
     transform: rotate(-45deg) translate(-7px, 5.5px);
-    background: #ffffff;
+    background: #fff;
 }
 .sprig.is-active::after{
     transform: rotate(45deg) translate(-5.3px, -5px);
-    background: #ffffff;
+    background: #fff;
 }
 
 .sprig.is-active .bar{
