@@ -105,10 +105,10 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
-    background: rgba(217, 217, 217, 0.3);
+    /* background: rgba(217, 217, 217, 0.3); */
     backdrop-filter: blur(50px);
     height: 100px;
-    padding: 0 62px;
+    line-height: 100px;
     z-index: 1;
 }
 
@@ -120,19 +120,19 @@ body{
 .header-brand a{
     color: #000;
     margin: 0 21px ;
-    font-size: 53px;
+    font-size: 54px;
 }
 .header-maake-text {
     color: #000;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 26px;
 }
 
 
 /* nav */
 nav{
     width: 100%;
-    background: rgba(217, 217, 217, 0.3);
+    /* background: rgba(217, 217, 217, 0.3); */
     backdrop-filter: blur(50px);
     position: fixed;
     bottom: 0;
@@ -301,6 +301,20 @@ color: #000000;
 
 }
 .we-make{
+    font-weight: 300;
+    position: fixed;
+    width: 110px;
+    left: -10px;
+    padding: 20px;
+    backdrop-filter: blur(50px);
+    font-family: 'Roboto Mono';
+    transform: rotate(90deg);
+    font-size: 30px;
+    line-height: 30px;
+    color: #000;
+    top: 0px
+}
+/* .we-make{
     position: fixed;
     width: 100px;
     left: 0;
@@ -314,7 +328,7 @@ color: #000000;
     line-height: 30px;
     color: #000000;
     transform: rotate(90deg);
-}
+} */
 .about-image{
     margin: 200px 0;
     display: flex;
@@ -452,4 +466,34 @@ a:hover{
 }
 .mt-8{
     margin-top: 0.8rem;
+}
+
+/* new header */
+.header{
+    background: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(50px);
+    height: 174px;
+}
+.logo{
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 300;
+font-size: 43.2px;
+color: #000000;
+}
+.menu-top{
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 84.6774px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.logo-position{
+    position: relative;
+    top: 17px;
+}
+.hr-line{
+    height: 2px;
+    background: #ffffff;
 }

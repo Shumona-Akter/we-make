@@ -9,9 +9,7 @@
     .brand-heading {
         font-size: 50px;
     }
-    .header-brand a {
-        font-size: 50px;
-    }
+   
 
     
     /* section */
@@ -97,7 +95,9 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-
+    .mt-20{
+        margin-top: 22px;
+    }
     .header-bg{
         width: 100px;
         background: rgba(217, 217, 217, 0.3);
@@ -107,18 +107,21 @@
     }
     .header-maake-text{
         transform: rotate(90deg);
-        padding: 0;
-        margin: 40px 0 0 0;
+        position: relative;
+        right: 7px;
         font-size: 30px;
-        line-height: 14px;
+        line-height: 6px;
+        top: 38px;
     }
     .header-brand{
-        margin-top: 30px;
-        font-size: 45px;
+        margin-top: 0;
     }
-   
     .header-brand a{
-        font-size: 50px;
+        margin: 0  auto;
+        line-height: 80px;
+    }
+    .logo-position{
+        top: 0;
     }
     .header-img{
         padding: 0;
@@ -250,11 +253,14 @@
         align-items: center;
     }
     .mt-20{
-        margin-top: 18px;
+        margin-top: 22px;
     }
 } 
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .mt-20{
+        margin-top: 22px;
+    }
     .header-bg{
         width: 100px;
         background: rgba(217, 217, 217, 0.3);
@@ -264,20 +270,22 @@
     }
     .header-maake-text{
         transform: rotate(90deg);
-        padding: 0;
-        margin: 40px 0 0 0;
+        position: relative;
+        right: 7px;
         font-size: 30px;
-        line-height: 14px;
+        line-height: 6px;
+        top: 38px;
     }
     .header-brand{
-        margin-top: 30px;
-        font-size: 45px;
+        margin-top: 0;
     }
-   
     .header-brand a{
-        font-size: 50px;
+        margin: 0  auto;
+        line-height: 80px;
     }
-    
+    .logo-position{
+        top: 0;
+    }
     .header-img{
         padding: 0;
         width: auto;
@@ -397,14 +405,14 @@
         margin-left: 100px;
     }
     .mt-20{
-        margin-top: 18px;
+        margin-top: 22px;
     }
 } 
 
 
 @media (max-width: 575.98px){
     .mt-20{
-        margin-top: 18px;
+        margin-top: 22px;
     }
     .header-bg{
         width: 100px;
@@ -415,24 +423,21 @@
     }
     .header-maake-text{
         transform: rotate(90deg);
-        padding: 0;
-        margin: 40px 0 0 0;
+        position: relative;
+        right: 7px;
         font-size: 30px;
-        line-height: 14px;
+        line-height: 6px;
+        top: 38px;
     }
     .header-brand{
-        margin-top: 30px;
-        font-size: 45px;
+        margin-top: 0;
+    }
+    .header-brand a{
+        margin: 0  auto;
+        line-height: 80px;
     }
    
-    .header-brand a{
-        font-size: 50px;
-    }
-    .header-brand p{
-        padding: 0;
-        margin: 0;
-
-    }
+    
     .header-img{
         padding: 0;
         width: auto;
@@ -561,7 +566,9 @@
     #mb-login a{
         padding: 10px 30px;
     }
-    
-
+    /* new cngg */
+    .logo-position{
+        top: 0;
+    }
 }
 
