@@ -41,7 +41,7 @@ nav  li{
 /*  */
 /* body bg */
 body{
-    background: linear-gradient(0deg, rgba(224, 224, 224, 0.1), rgba(224, 224, 224, 0.1)), #FFFFFF;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
     color: var(--black);
     /* background: #fff; */
 }
