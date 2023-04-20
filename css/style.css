@@ -106,7 +106,7 @@ body{
     position: fixed;
     top: 0;
     /* background: rgba(217, 217, 217, 0.3); */
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(250px);
     height: 100px;
     line-height: 100px;
     z-index: 1;
@@ -133,7 +133,7 @@ body{
 nav{
     width: 100%;
     /* background: rgba(217, 217, 217, 0.3); */
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(250px);
     position: fixed;
     bottom: 0;
     height: 70px;

@@ -100,8 +100,8 @@
     }
     .header-bg{
         width: 100px;
-        background: rgba(217, 217, 217, 0.3);
-        backdrop-filter: blur(12.5px);
+        /* background: rgba(217, 217, 217, 0.3); */
+        /* backdrop-filter: blur(12.5px); */
         padding:  0 ;
         height: 100vh;
     }
@@ -263,8 +263,8 @@
     }
     .header-bg{
         width: 100px;
-        background: rgba(217, 217, 217, 0.3);
-        backdrop-filter: blur(12.5px);
+        /* background: rgba(217, 217, 217, 0.3); */
+        /* backdrop-filter: blur(12.5px); */
         padding:  0 ;
         height: 100vh;
     }
@@ -416,8 +416,8 @@
     }
     .header-bg{
         width: 100px;
-        background: rgba(217, 217, 217, 0.3);
-        backdrop-filter: blur(12.5px);
+        /* background: rgba(217, 217, 217, 0.3);
+        backdrop-filter: blur(12.5px); */
         padding:  0 ;
         height: 100vh;
     }
