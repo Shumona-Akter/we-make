@@ -41,9 +41,9 @@ nav  li{
 /*  */
 /* body bg */
 body{
-    background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
-    color: var(--black);
-    /* background: #fff; */
+    /* background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
+    color: var(--black); */
+    background: #fff;
 }
 
 /* 1e1e bg */
@@ -112,7 +112,16 @@ body{
     line-height: 100px;
     z-index: 1;
 }
-
+.header-bg-about{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(217, 217, 217, 0.01);
+    backdrop-filter: blur(50px);
+    height: 100px;
+    line-height: 130px;
+    z-index: 1;
+}
 
 .header-brand{
     font-weight: 300;
