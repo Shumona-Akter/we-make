@@ -105,8 +105,8 @@ body{
     width: 100%;
     position: fixed;
     top: 0;
-    background: rgba(217, 217, 217, 0.01);
-    backdrop-filter: blur(250px);
+    background: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(150px);
     height: 100px;
     line-height: 100px;
     z-index: 1;
@@ -132,8 +132,8 @@ body{
 /* nav */
 nav{
     width: 100%;
-    background: rgba(217, 217, 217, 0.01);
-    backdrop-filter: blur(250px);
+    background: rgba(217, 217, 217, 0.3);
+    backdrop-filter: blur(150px);
     position: fixed;
     bottom: 0;
     height: 70px;
@@ -155,7 +155,7 @@ nav li:hover a{
 
  .brand-heading{
         font-size: 50px;
-        margin: 40px 0;
+        margin: 20px 0 0 0;
 }
 .menu-show{
     width: 50px;
