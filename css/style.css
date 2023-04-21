@@ -41,9 +41,8 @@ nav  li{
 /*  */
 /* body bg */
 body{
-    /* background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
-    color: var(--black); */
-    background: #fff;
+    background: linear-gradient(0deg, rgba(224, 224, 224, 0.2), rgba(224, 224, 224, 0.2)), #FFFFFF;
+    color: var(--black);
 }
 
 /* 1e1e bg */
@@ -163,6 +162,7 @@ nav{
 ul{
     padding: 0;
     cursor: pointer;
+    margin-left: 40px;
 }
 nav li a{
     font-size: 20px;
@@ -514,7 +514,10 @@ color: #000000;
     position: relative;
     top: 17px;
 }
-/* .hr-line{
+.hr-line{
     height: 2px;
     background: #fff;
-} */
+}
+.ml-70{
+    margin-left: 130px;
+}
